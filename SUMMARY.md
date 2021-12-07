@@ -4,8 +4,6 @@
 
 ## Client Side Integration
 
-***
-
 * [Javascript Integration](javascript-integration.md)
 * [React JS](react-js.md)
 * [Angular JS](angular-js.md)
@@ -25,8 +23,6 @@
 * [Magento](ecommerce-integrations/magento.md)
 
 ## Mobile SDK Integrations
-
-***
 
 * [Android SDK](android-sdk.md)
 * [iOS SDK](ios-sdk-for-ippopay.md)

@@ -12,4 +12,8 @@ Go to IppoPay Merchant Dashboard and then Select **API Credentials** under **My 
 
 ![](.gitbook/assets/image.png)
 
-![](<.gitbook/assets/image (2).png>)
+![](https://raw.githubusercontent.com/HARIHARASUDAN22/IPPOPAY-DOCS/main/Images/image.png)
+
+![](https://raw.githubusercontent.com/HARIHARASUDAN22/IPPOPAY-DOCS/main/Images/image%20\(2\).png)
+
+![](.gitbook/assets/image%20\(2\).png)
