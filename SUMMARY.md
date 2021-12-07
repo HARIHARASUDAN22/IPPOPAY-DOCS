@@ -28,9 +28,3 @@
 * [iOS SDK](ios-sdk-for-ippopay.md)
 * [Flutter](flutter.md)
 * [UPI Intent (Self Hosted)](upi-intent-self-hosted.md)
-
-## Payouts
-
-* [Account](payouts/account.md)
-* [Beneficiary](payouts/beneficiary.md)
-* [Transfers](payouts/transfers.md)

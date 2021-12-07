@@ -25,4 +25,3 @@ Currently, we support these PrestaShop versions:
 
 **Note**:\
 If the store is open while the module has not been fully configured, it might be good to deactivate it, by clicking on the green check icon . Once the module is configured, click on the red icon X to deactivate it. If you face any errors, refer to the [PrestaShop guide](https://addons.prestashop.com/en/content/21-how-to).\
-&#x20;
