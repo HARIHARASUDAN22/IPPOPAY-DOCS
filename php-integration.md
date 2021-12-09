@@ -1,5 +1,5 @@
 ---
-description: IppoPay Payment Gateway for your Online Business.
+description: Livquik Payment Gateway for your Online Business.
 ---
 
 # PHP Integration

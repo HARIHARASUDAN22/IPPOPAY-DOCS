@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Ippopay Payments plugin allows you to accept credit card, UPI, Netbanking
-  and debit card payments via Ippopay payment gateway.
+  The Livquik Payments plugin allows you to accept credit card, UPI, Netbanking
+  and debit card payments via Livquik payment gateway.
 ---
 
 # REST API
@@ -11,23 +11,23 @@ description: >-
 Use this api to create your order on Ippopay to use it for initiating transaction. You can get your keys from the api dashboard.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="notify_url" type="string" %}
+{% swagger-parameter in="body" name="notify_url" type="string" required="false" %}
 Your webhook url
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="amount" type="number" %}
+{% swagger-parameter in="body" name="amount" type="number" required="false" %}
 The Order amount to be charged in format ##.##
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="currency" type="string" %}
+{% swagger-parameter in="body" name="currency" type="string" required="false" %}
 The currency to be charged, Defaults to INR.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="payment_modes" type="string" %}
+{% swagger-parameter in="body" name="payment_modes" type="string" required="false" %}
 Payment modes to be enabled for this order, Defaults to Credit, Debit Cards, Netbanking and UPI.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="customer" type="object" %}
+{% swagger-parameter in="body" name="customer" type="object" required="false" %}
 Information of the customer, if not provided will be prompted on payment page.
 {% endswagger-parameter %}
 
@@ -58,7 +58,6 @@ Information of the customer, if not provided will be prompted on payment page.
             }
         }
     }
-
 ```
 {% endswagger-response %}
 {% endswagger %}
@@ -79,8 +78,6 @@ Information of the customer, if not provided will be prompted on payment page.
                 }
     }
 ```
-
-
 
 {% swagger baseUrl="https://public_key:secret_key@api.ippopay.com" path="/v1/order/ORDER_ID" method="get" summary="Get Order Details" %}
 {% swagger-description %}
@@ -116,7 +113,6 @@ Use this API to get your order details.
             }
         }
     }
-
 ```
 {% endswagger-response %}
 {% endswagger %}
@@ -185,7 +181,6 @@ Use this API to get your transaction details for the successful order.
         }
     }
 }
-
 ```
 {% endswagger-response %}
 {% endswagger %}
@@ -195,8 +190,8 @@ Use this API to get your transaction details for the successful order.
 Use this API to refund for your order on Ippopay.
 {% endswagger-description %}
 
-{% swagger-parameter in="body" name="refund_amt" type="number" %}
-Pass this parameter to do a partial refund. 
+{% swagger-parameter in="body" name="refund_amt" type="number" required="false" %}
+Pass this parameter to do a partial refund.
 {% endswagger-parameter %}
 
 {% swagger-response status="200" description="" %}
@@ -205,8 +200,6 @@ Pass this parameter to do a partial refund.
     "success": true,
     "message": "Your refund request accepted"
 }
-
 ```
 {% endswagger-response %}
 {% endswagger %}
-

@@ -5,15 +5,11 @@
 ## Client Side Integration
 
 * [Javascript Integration](javascript-integration.md)
-* [React JS](react-js.md)
-* [Angular JS](angular-js.md)
 * [PHP Integration](php-integration.md)
 
 ## Server Side Integrations
 
 * [REST API](server-side-integrations/rest-api.md)
-* [PHP Client](server-side-integrations/php-client.md)
-* [Node JS SDK](server-side-integrations/node-js-sdk.md)
 
 ## eCommerce Integrations
 
