@@ -84,8 +84,8 @@ description: Livquik Payment Gateway for your Online Business.
 
 ### Author
 
-This component is written by [IppoPay](https://github.com/ippopay).
+This component is written by Livquik.
 
 ### License
 
-IppoPay 2020 © All Rights Reserved. [IppoPay](https://www.ippopay.com)
+Livquik 2020 © All Rights Reserved. Livquik

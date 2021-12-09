@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Ippopay Payments plugin allows you to accept credit card, UPI, Netbanking
-  and debit card payments via Ippopay payment gateway.
+  The Livquik Payments plugin allows you to accept credit card, UPI, Netbanking
+  and debit card payments via Livquik payment gateway.
 ---
 
 # Android SDK

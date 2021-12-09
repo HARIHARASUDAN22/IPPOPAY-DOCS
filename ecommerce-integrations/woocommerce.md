@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Ippopay Payments plugin allows you to accept credit card, UPI, Netbanking
-  and debit card payments via Ippopay payment gateway on your WordPress site
+  The Livquik Payments plugin allows you to accept credit card, UPI, Netbanking
+  and debit card payments via Livquik payment gateway on your WordPress site
   easily.
 ---
 
@@ -17,4 +17,3 @@ In the WordPress administration panel:
 4. Add IppoPay Public and Secret key and Save (You can take this Public and Secret key from IppoPay merchant panel under API Settings)
 
 If you have any questions or issues, feel free to contact our technical support: info@Ippopay.com
-

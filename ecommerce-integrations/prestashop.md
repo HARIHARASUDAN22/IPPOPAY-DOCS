@@ -1,6 +1,6 @@
 ---
 description: >-
-  Integrating your PrestaShop site with IppoPay allows you to accept payments
+  Integrating your PrestaShop site with Livquik allows you to accept payments
   from your customers via  via debit card, credit card, netbanking and UPI.
 ---
 

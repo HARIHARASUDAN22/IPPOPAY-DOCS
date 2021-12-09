@@ -1,6 +1,6 @@
 ---
 description: >-
-  You can integrate IppoPay Payment Gateway with your Magento Store to accept
+  You can integrate Livquik Payment Gateway with your Magento Store to accept
   payments from customers. It supports for Magento 2.x version.
 ---
 
@@ -22,11 +22,11 @@ description: >-
 * Enable and deploy the IppoPay module using commands
   * `bin/magento module:enable Ippopay_PaymentGatway`
   * `bin/magento setup:upgrade`
-  * ~~`bin`~~`/magento cache:flush`&#x20;
+  * ~~`bin`~~`/magento cache:flush`
 
 ### Step 2: Configure Magento Store
 
-To configure your Magento store for IppoPay Payments&#x20;
+To configure your Magento store for IppoPay Payments
 
 1. Log into your Magento store.
 2. Choose Stores on the Admin sidebar to the left. Now go to Settings > Configuration.
@@ -34,7 +34,7 @@ To configure your Magento store for IppoPay Payments&#x20;
 4. In the Payment Methods page, navigate to IppoPay.
 5. Enter your test mode \[PUBLIC\_KEY] and \[SECRET\_KEY]. These can be generated from your [Dashboard](https://app.ippopay.com/signin).
 6. Select Yes for the option Enabled.
-7. Click Save Config. This activates your account in the Test Mode. You can use this account to make a few test payments to ensure a successful workflow.&#x20;
+7. Click Save Config. This activates your account in the Test Mode. You can use this account to make a few test payments to ensure a successful workflow.
 
 **Note: In test mode, no real money is deducted from your account.**
 

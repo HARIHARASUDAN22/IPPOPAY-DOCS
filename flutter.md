@@ -1,6 +1,6 @@
 ---
 description: >-
-  A Flutter plugin for making payments via IppoPay Payment Gateway. Fully
+  A Flutter plugin for making payments via Livquik Payment Gateway. Fully
   supports Android and iOS.
 ---
 
