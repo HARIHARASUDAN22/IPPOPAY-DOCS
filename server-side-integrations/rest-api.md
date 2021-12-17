@@ -76,11 +76,9 @@ Information of the customer, if not provided will be prompted on payment page.
                 "phone": {
                         "country_code": "91" ,
                         "national_number": "1234567"
-                    }
-                }
-                
-                
-    }
+                 }
+        }
+}
 ```
 
 {% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/ORDER_ID" method="get" summary="Get Order Details" %}
