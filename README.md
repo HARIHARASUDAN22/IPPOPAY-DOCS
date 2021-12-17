@@ -8,7 +8,7 @@ description: >-
 
 ### How to generate your API Public and Secret keys?
 
-Go to IppoPay Merchant Dashboard and then Select **API Credentials** under **My Settings.** In the API settings page, you can generate your API keys and use it.
+Go to Livquik Merchant Dashboard and then Select **API Credentials** under **My Settings.** In the API settings page, you can generate your API keys and use it.
 
 ![](https://raw.githubusercontent.com/HARIHARASUDAN22/IPPOPAY-DOCS/main/Images/image.png)
 

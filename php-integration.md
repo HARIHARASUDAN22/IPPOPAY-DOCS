@@ -84,8 +84,8 @@ description: Livquik Payment Gateway for your Online Business.
 
 ### Author
 
-This component is written by Livquik.
+This component is written by [Livquik](https://livquik.com).
 
 ### License
 
-Livquik 2020 © All Rights Reserved. Livquik
+Livquik 2021 © All Rights Reserved. [Livquik](https://livquik.com)

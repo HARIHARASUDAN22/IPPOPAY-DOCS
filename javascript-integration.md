@@ -23,11 +23,11 @@ var options = {
 var lpay = new Livquik(options);
 ```
 
-You can get your Public and Secret key from the api [dashboard](https://app.ippopay.com/settings/api).
+You can get your Public and Secret key from the api [dashboard](https://merchantapp.livquik.com/dashboard).
 
 ## Create Order
 
-Create order from Server side using below API and get the Order id. [Click here](https://docs.ippopay.com/server-side-integrations/rest-api#create-order) to know how to create a order.
+Create order from Server side using below API and get the Order id. [Click here](https://docs.livquik.com/server-side-integrations/rest-api) to know how to create a order.
 
 ## Open the payment view
 

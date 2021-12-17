@@ -20,7 +20,4 @@
 
 ## Mobile SDK Integrations
 
-* [Android SDK](android-sdk.md)
-* [iOS SDK](ios-sdk-for-ippopay.md)
-* [Flutter](flutter.md)
 * [UPI Intent (Self Hosted)](upi-intent-self-hosted.md)
