@@ -68,6 +68,8 @@ Information of the customer, if not provided will be prompted on payment page.
         "currency": "INR",
         "payment_modes": "cc,dc,nb,upi",
         "notify_url":"YOUR WEBHOOK URL",
+        "notes":"YOUR ADDITIONAL FIELDS LIKE UDF",
+        "return_url":"YOUR RETURN URL", //If you need redirection, set it as true(Boolean)
         "customer": {
                 "name": "Test",
                 "email": "test@gmail.com",
@@ -76,6 +78,8 @@ Information of the customer, if not provided will be prompted on payment page.
                         "national_number": "1234567"
                     }
                 }
+                
+                
     }
 ```
 
