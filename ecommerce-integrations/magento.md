@@ -8,7 +8,7 @@ description: >-
 
 ## **Prerequisites**
 
-* Sign up for a IppoPay account.
+* Sign up for a Livquik account.
 * Generate the API keys from the [Livquik Dashboard](https://merchantapp.livquik.com) by navigating to Settings and then API Keys. You can use the Test mode keys for testing and later switch to Live mode keys when going live with the integration.
 
 ## Integration Steps
@@ -19,7 +19,7 @@ description: >-
 
 * Download the code.zip file from the [latest release](https://livquik-assets.s3.ap-south-1.amazonaws.com/Plugins/livquik-magento.zip). Extract the zip.
 * Place the code folder from Step 1 in your app folder. If you're performing an update, replace/overwrite the existing code folder.
-* Enable and deploy the IppoPay module using commands
+* Enable and deploy the Livquik module using commands
   * `bin/magento module:enable Livquik_PaymentGatway`
   * `bin/magento setup:upgrade`
   * ~~`bin`~~`/magento cache:flush`

@@ -15,7 +15,7 @@ description: >-
 ## Step 2 : Configuration
 
 1. Login to your Opencart Admin account
-2. Go to the **Admin Panel** and then to **Extensions** and **Payments** to install the IppoPay Payment Gateway extension.
+2. Go to the **Admin Panel** and then to **Extensions** and **Payments** to install the Livquik Payment Gateway extension.
 3. Click **Edit** and follow the steps below:
    1. Enter your Public key and Secret key. You can get your Public and Secret key from the api [dashboard](https://merchantapp.livquik.com).
    2. Change extension status to **Enabled**.
