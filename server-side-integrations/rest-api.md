@@ -6,7 +6,7 @@ description: >-
 
 # REST API
 
-{% swagger baseUrl="https://public_key:secret_key@api.ippopay.com" path="/v1/order/create" method="post" summary="Create Order" %}
+{% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/create" method="post" summary="Create Order" %}
 {% swagger-description %}
 Use this api to create your order on Ippopay to use it for initiating transaction. You can get your keys from the api dashboard.
 {% endswagger-description %}
@@ -79,7 +79,7 @@ Information of the customer, if not provided will be prompted on payment page.
     }
 ```
 
-{% swagger baseUrl="https://public_key:secret_key@api.ippopay.com" path="/v1/order/ORDER_ID" method="get" summary="Get Order Details" %}
+{% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/ORDER_ID" method="get" summary="Get Order Details" %}
 {% swagger-description %}
 Use this API to get your order details.
 {% endswagger-description %}
@@ -117,7 +117,7 @@ Use this API to get your order details.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://public_key:secret_key@api.ippopay.com" path="/v1/order/ORDER_ID/transaction" method="get" summary="Get Transaction Details for Order" %}
+{% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/ORDER_ID/transaction" method="get" summary="Get Transaction Details for Order" %}
 {% swagger-description %}
 Use this API to get your transaction details for the successful order.
 {% endswagger-description %}
@@ -185,9 +185,9 @@ Use this API to get your transaction details for the successful order.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://public_key:secret_key@api.ippopay.com" path="/v1/order/refund/YOUR_ORDER_ID" method="post" summary="Refund Request" %}
+{% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/refund/YOUR_ORDER_ID" method="post" summary="Refund Request" %}
 {% swagger-description %}
-Use this API to refund for your order on Ippopay.
+Use this API to refund for your order on Livquik.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="refund_amt" type="number" required="false" %}

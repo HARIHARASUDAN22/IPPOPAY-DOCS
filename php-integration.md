@@ -12,7 +12,7 @@ description: Livquik Payment Gateway for your Online Business.
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>IppoPay</title>
+        <title>Livquik</title>
     </head>
     <body>       
         <?php
@@ -34,7 +34,7 @@ description: Livquik Payment Gateway for your Online Business.
         }";
         $curl = curl_init();
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://".$publicKey.":".$secretKey."@api.ippopay.com/v1/order/create",
+        CURLOPT_URL => "https://".$publicKey.":".$secretKey."@merchantapi.livquik.com/v1/order/create",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -60,16 +60,16 @@ description: Livquik Payment Gateway for your Online Business.
         }
 
         ?>
-        <script type="text/javascript" src="https://js.ippopay.com/scripts/ippopay.v1.js"></script>
+        <script type="text/javascript" src="https://merchantapi.livquik.com/scripts/livquik.v1.js"></script>
         <script type="text/javascript">
             var order_id;
             var options = {
                 "order_id" : "<?php echo $orderId; ?>",
                 "public_key" : "<?php echo $publicKey; ?>"
             }
-            var ipay = new Ippopay(options);
-            ipay.open();
-            ippopayHandler(response, function (e) {
+            var ipay = new Livquik(options);
+            lpay.open();
+            livquikHandler(response, function (e) {
                 if(e.data.status == 'success'){
                     console.log(e.data);
                 }
