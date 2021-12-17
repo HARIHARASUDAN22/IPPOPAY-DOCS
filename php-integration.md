@@ -67,7 +67,7 @@ description: Livquik Payment Gateway for your Online Business.
                 "order_id" : "<?php echo $orderId; ?>",
                 "public_key" : "<?php echo $publicKey; ?>"
             }
-            var ipay = new Livquik(options);
+            var lpay = new Livquik(options);
             lpay.open();
             livquikHandler(response, function (e) {
                 if(e.data.status == 'success'){

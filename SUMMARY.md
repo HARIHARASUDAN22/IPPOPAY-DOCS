@@ -17,7 +17,3 @@
 * [Opencart](ecommerce-integrations/opencart.md)
 * [PrestaShop](ecommerce-integrations/prestashop.md)
 * [Magento](ecommerce-integrations/magento.md)
-
-## Mobile SDK Integrations
-
-* [UPI Intent (Self Hosted)](upi-intent-self-hosted.md)
