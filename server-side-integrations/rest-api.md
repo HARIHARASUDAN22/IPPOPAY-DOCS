@@ -8,7 +8,7 @@ description: >-
 
 {% swagger baseUrl="https://public_key:secret_key@merchantapi.livquik.com" path="/v1/order/create" method="post" summary="Create Order" %}
 {% swagger-description %}
-Use this api to create your order on Ippopay to use it for initiating transaction. You can get your keys from the api dashboard.
+Use this api to create your order on Livquik to use it for initiating transaction. You can get your keys from the api dashboard.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="notify_url" type="string" required="false" %}
