@@ -17,3 +17,4 @@
 * [Opencart](ecommerce-integrations/opencart.md)
 * [PrestaShop](ecommerce-integrations/prestashop.md)
 * [Magento](ecommerce-integrations/magento.md)
+* [CS Cart](ecommerce-integrations/cs-cart.md)
