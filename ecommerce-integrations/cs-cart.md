@@ -33,5 +33,5 @@ Allows you to use Livquik payment gateway with the CS Cart Store.
 
 #### Support
 
-Visit [https://livquik.com/](https://livquik.com)  for support requests or email techsupport@livquik.com.
+Visit [https://livquik.com](https://livquik.com)  for support requests or email techsupport@livquik.com.
 
