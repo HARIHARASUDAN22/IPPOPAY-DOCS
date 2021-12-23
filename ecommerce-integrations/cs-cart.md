@@ -1,6 +1,6 @@
 ---
 description: >-
-  Livquik payment gateway plugin for CS-Cart. Allows UAE merchants to accept
+  Livquik payment gateway plugin for CS-Cart. Allows merchants to accept
   payments with the CS-Cart store. It uses a seamless integration.
 ---
 
